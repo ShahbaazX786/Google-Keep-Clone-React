@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    background: white;
+}
+
+header{
+    background-color: #f5ba13;
+    margin: auto auto;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1{
+    color: white;
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+}
+
+footer{
+    background: rgb(231, 231, 231);
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    padding: 10px 0;
+}
+
+footer p{
+    color: gray;
+}
+
+.note{
+    background: rgb(238, 238, 238);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px white;
+    padding: 10px;
+    width: 240px;
+    margin: 16px;
+    float: left;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.note  h1{
+    font-size: 1.2rem;
+    margin-bottom: 6px;
+}
+
+.note p{
+    font-size: 1rem;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
